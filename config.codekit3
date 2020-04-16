@@ -60,17 +60,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/image/section02/hero2.jpg": {
-		"ft": 16384,
-		"iS": 122534,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/image/section02/hero2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/deploy/image/section02/profile.png": {
 		"ft": 32768,
 		"iS": 21376,
@@ -80,6 +69,17 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"/deploy/image/section03/hero2.jpg": {
+		"ft": 16384,
+		"iS": 122534,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/image/section03/hero2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/deploy/image/section04/hero3.jpg": {
