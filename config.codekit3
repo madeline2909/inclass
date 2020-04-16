@@ -19,6 +19,113 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/deploy/image/facebook.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/image/facebook.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/image/gallery-1.jpg": {
+		"ft": 16384,
+		"iS": 156747,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/image/gallery-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/image/gallery-2.jpg": {
+		"ft": 16384,
+		"iS": 103160,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/image/gallery-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/image/gallery-3.jpg": {
+		"ft": 16384,
+		"iS": 88088,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/image/gallery-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/image/hero.jpg": {
+		"ft": 16384,
+		"iS": 121319,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/image/hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/image/hero2.jpg": {
+		"ft": 16384,
+		"iS": 122534,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/image/hero2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/image/hero3.jpg": {
+		"ft": 16384,
+		"iS": 96821,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/image/hero3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/image/instagram.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/image/instagram.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/image/profile.png": {
+		"ft": 32768,
+		"iS": 21376,
+		"oA": 0,
+		"oAP": "/deploy/image/profile.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/image/twitter.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/image/twitter.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/deploy/index.html": {
 		"cB": 0,
 		"ft": 8192,
