@@ -4,7 +4,7 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "490758A7-693A-4494-8745-3F679AE21125"
+		"uuidString": "1B950A3E-E382-4118-963D-EC8F4EBFD7DC"
 		}
 	],
 "creatorBuild": "32001",
@@ -19,108 +19,141 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/deploy/image/footer/facebook.svg": {
+	"/deploy/img/footer/facebook.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/deploy/image/footer/facebook.svg",
+		"oAP": "/deploy/img/footer/facebook.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/deploy/image/footer/instagram.svg": {
+	"/deploy/img/footer/instagram.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/deploy/image/footer/instagram.svg",
+		"oAP": "/deploy/img/footer/instagram.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/deploy/image/footer/twitter.svg": {
+	"/deploy/img/footer/twitter.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/deploy/image/footer/twitter.svg",
+		"oAP": "/deploy/img/footer/twitter.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/deploy/image/section01/hero.jpg": {
+	"/deploy/img/section-1/hero.jpg": {
 		"ft": 16384,
-		"iS": 121319,
+		"iS": 337746,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/image/section01/hero.jpg",
+		"oAP": "/deploy/img/section-1/hero.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/image/section02/profile.png": {
+	"/deploy/img/section-2/hero.png": {
 		"ft": 32768,
-		"iS": 21376,
+		"iS": 21385,
 		"oA": 0,
-		"oAP": "/deploy/image/section02/profile.png",
+		"oAP": "/deploy/img/section-2/hero.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/deploy/image/section03/hero2.jpg": {
+	"/deploy/img/section-3/grid-bot.jpg": {
 		"ft": 16384,
-		"iS": 122534,
+		"iS": 185897,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/image/section03/hero2.jpg",
+		"oAP": "/deploy/img/section-3/grid-bot.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/image/section04/hero3.jpg": {
+	"/deploy/img/section-4/hero.jpg": {
 		"ft": 16384,
-		"iS": 96821,
+		"iS": 189024,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/image/section04/hero3.jpg",
+		"oAP": "/deploy/img/section-4/hero.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/image/section05/gallery-1.jpg": {
+	"/deploy/img/section-5/gallery-1.jpg": {
 		"ft": 16384,
-		"iS": 156747,
+		"iS": 173696,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/image/section05/gallery-1.jpg",
+		"oAP": "/deploy/img/section-5/gallery-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/image/section05/gallery-2.jpg": {
+	"/deploy/img/section-5/gallery-2.jpg": {
 		"ft": 16384,
-		"iS": 103160,
+		"iS": 47796,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/image/section05/gallery-2.jpg",
+		"oAP": "/deploy/img/section-5/gallery-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/image/section05/gallery-3.jpg": {
+	"/deploy/img/section-5/gallery-3.jpg": {
 		"ft": 16384,
-		"iS": 88088,
+		"iS": 100411,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/image/section05/gallery-3.jpg",
+		"oAP": "/deploy/img/section-5/gallery-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-5/gallery-4.jpg": {
+		"ft": 16384,
+		"iS": 170027,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-5/gallery-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-5/gallery-5.jpg": {
+		"ft": 16384,
+		"iS": 70439,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-5/gallery-5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-5/gallery-6.jpg": {
+		"ft": 16384,
+		"iS": 115782,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-5/gallery-6.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -369,10 +402,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 608749289.50137401,
+	"creationDate": 608749270.97778797,
 	"displayValue": "inclass",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets_green",
+	"iconImageName": "brackets-pale",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
