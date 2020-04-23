@@ -317,6 +317,11 @@ template {
 /* =============
     Base
 ============= */
+ul {
+  padding: 0; }
+  ul li {
+    list-style: none; }
+
 /* =============
     Typography
 ============= */
@@ -347,6 +352,13 @@ textarea {
 /* =============
     Footer
 ============= */
+footer {
+  display: grid;
+  grid-template-columns: 6% auto 6%;
+  grid-template-areas: ". footer ."; }
+  footer #footer-content {
+    grid-area: footer; }
+
 /* =============
     Section 1
 ============= */
@@ -356,11 +368,25 @@ textarea {
 /* =============
     Section 2
 ============= */
+#section-2 {
+  display: grid;
+  grid-template-columns: 15px auto 15px;
+  grid-template-areas: ". section-2 ."; }
+  #section-2 #section-2-content {
+    grid-area: section-2; }
+
 /* =============
     Section 3
 ============= */
 #section-3 aside img {
   width: 100%; }
+
+#section-3 #section-3-container {
+  display: grid;
+  grid-template-columns: 15px auto 15px;
+  grid-template-areas: ". section-3 ."; }
+  #section-3 #section-3-container #section-3-content {
+    grid-area: section-3; }
 
 /* =============
     Section 4
@@ -371,3 +397,13 @@ textarea {
 /* =============
     Section 5
 ============= */
+#section-5 {
+  display: grid;
+  grid-template-columns: 15px auto 15px;
+  grid-template-areas: ". section-5 ."; }
+  #section-5 ul {
+    grid-area: section-5;
+    display: grid;
+    gap: 20px; }
+    #section-5 ul li img {
+      width: 100%; }
