@@ -11,11 +11,50 @@
         grid-area: section-5;
         display: grid;
         gap:20px;
+        @include md{
+            grid-template-columns: 50% auto;
+            grid-template-areas: 
+            "g1 g3"
+            "g1 g7"
+            "g5 g6";
+
+        }
 
         li{
             img{
                 width: 100%;
             }
         }
+
+        #g1{
+            @include md{
+                grid-area: g1;
+            }
+        }
+
+        #g3{
+            @include md{
+                grid-area: g3;
+            }
+         }
+
+         #g5{
+            @include md{
+                grid-area: g5;
+            }
+
+        }#g6{
+            @include md{
+                grid-area: g6;
+            }
+        }
+
+        #g7{
+            @include md{
+                grid-area: g7;
+            }
+        }
+            
+        
     }
 }
