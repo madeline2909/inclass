@@ -7,17 +7,33 @@
     grid-template-columns: 15px auto 15px;
     grid-template-areas: ". section-5 .";
 
+    @include xl{
+        grid-template-columns: auto 1200px auto;
+    }
+
     ul{
         grid-area: section-5;
         display: grid;
         gap:20px;
         @include md{
-            grid-template-columns: 50% auto;
+            grid-template-columns: repeat(2, 1fr);
+            // grid-template-columns: 50% 50%;
+            // grid-template-columns: 50% auto;
+
             grid-template-areas: 
             "g1 g3"
             "g1 g7"
             "g5 g6";
+        }
 
+        @include lg{
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-areas: 
+            "g1 g2 g3"
+            "g1 g7 g4"
+            "g6 g5 g4";
+
+            // grid-template-rows: repeat(3, 250px);    
         }
 
         li{
@@ -36,14 +52,15 @@
             @include md{
                 grid-area: g3;
             }
-         }
+        }
 
-         #g5{
+        #g5{
             @include md{
                 grid-area: g5;
             }
+        }
 
-        }#g6{
+        #g6{
             @include md{
                 grid-area: g6;
             }
@@ -54,7 +71,5 @@
                 grid-area: g7;
             }
         }
-            
-        
     }
 }

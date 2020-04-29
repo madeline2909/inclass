@@ -369,6 +369,12 @@ footer {
   @media (min-width: 768px) {
     footer {
       grid-template-columns: 20% auto 20%; } }
+  @media (min-width: 992px) {
+    footer {
+      grid-template-columns: 30% auto 30%; } }
+  @media (min-width: 1200px) {
+    footer {
+      grid-template-columns: 40% auto 40%; } }
   footer #footer-content {
     grid-area: footer; }
 
@@ -385,38 +391,68 @@ footer {
   display: grid;
   grid-template-columns: 15px auto 15px;
   grid-template-areas: ". section-2 ."; }
+  @media (min-width: 1200px) {
+    #section-2 {
+      grid-template-columns: auto 1200px auto; } }
   #section-2 #section-2-content {
     grid-area: section-2; }
     @media (min-width: 768px) {
       #section-2 #section-2-content #section-2-intro {
         display: grid;
         grid-template-columns: 15% auto 15%;
-        grid-template-areas: ". introcontent ."; } }
+        grid-template-areas: ". section-2-intro ."; } }
+    @media (min-width: 992px) {
+      #section-2 #section-2-content #section-2-intro {
+        grid-template-columns: 18% auto 18%; } }
     @media (min-width: 768px) {
-      #section-2 #section-2-content #section-2-intro #section-2-introcontent {
-        grid-area: introcontent; } }
+      #section-2 #section-2-content #section-2-intro #section-2-intro-content {
+        grid-area: section-2-intro; } }
+    @media (min-width: 992px) {
+      #section-2 #section-2-content #section-2-middle {
+        display: grid;
+        grid-template-columns: 15% auto 15%;
+        grid-template-areas: ". section-2-middle ."; } }
+    @media (min-width: 992px) {
+      #section-2 #section-2-content #section-2-middle #section-2-middle-content {
+        grid-area: section-2-middle; } }
     @media (min-width: 768px) {
       #section-2 #section-2-content #section-2-date {
         display: grid;
-        grid-template-columns: 15% auto 15%;
-        grid-template-areas: ". datecontent ."; } }
+        grid-template-columns: 10% auto 10%;
+        grid-template-areas: ". section-2-date ."; } }
+    @media (min-width: 992px) {
+      #section-2 #section-2-content #section-2-date {
+        grid-template-columns: 25% auto 25%; } }
     @media (min-width: 768px) {
-      #section-2 #section-2-content #section-2-date #section-2-datecontent {
-        grid-area: datecontent; } }
+      #section-2 #section-2-content #section-2-date #section-2-date-content {
+        grid-area: section-2-date; } }
 /* =============
     Section 3
 ============= */
-#section-3 aside img {
+@media (min-width: 1200px) {
+  #section-3 {
+    display: grid;
+    grid-template-columns: auto 1200px auto;
+    grid-template-areas: ". section-3-dekstop ."; } }
+
+@media (min-width: 1200px) {
+  #section-3 #section-3-desktop {
+    grid-area: section-3-dekstop;
+    display: grid;
+    grid-template-columns: 40% auto;
+    border: 1px solid red; } }
+
+#section-3 #section-3-desktop aside img {
   width: 100%; }
 
-#section-3 #section-3-container {
+#section-3 #section-3-desktop #section-3-container {
   display: grid;
   grid-template-columns: 15px auto 15px;
   grid-template-areas: ". section-3 ."; }
   @media (min-width: 768px) {
-    #section-3 #section-3-container {
+    #section-3 #section-3-desktop #section-3-container {
       grid-template-columns: 8% auto 8%; } }
-  #section-3 #section-3-container #section-3-content {
+  #section-3 #section-3-desktop #section-3-container #section-3-content {
     grid-area: section-3; }
 
 /* =============
@@ -432,14 +468,21 @@ footer {
   display: grid;
   grid-template-columns: 15px auto 15px;
   grid-template-areas: ". section-5 ."; }
+  @media (min-width: 1200px) {
+    #section-5 {
+      grid-template-columns: auto 1200px auto; } }
   #section-5 ul {
     grid-area: section-5;
     display: grid;
     gap: 20px; }
     @media (min-width: 768px) {
       #section-5 ul {
-        grid-template-columns: 50% auto;
+        grid-template-columns: repeat(2, 1fr);
         grid-template-areas: "g1 g3" "g1 g7" "g5 g6"; } }
+    @media (min-width: 992px) {
+      #section-5 ul {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: "g1 g2 g3" "g1 g7 g4" "g6 g5 g4"; } }
     #section-5 ul li img {
       width: 100%; }
     @media (min-width: 768px) {
