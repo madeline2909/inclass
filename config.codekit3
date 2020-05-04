@@ -57,7 +57,7 @@
 		"oAP": "/deploy/img/section-1/hero.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/deploy/img/section-2/hero.png": {
@@ -79,7 +79,7 @@
 		"oAP": "/deploy/img/section-3/grid-bot.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/deploy/img/section-4/hero.jpg": {

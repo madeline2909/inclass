@@ -381,9 +381,22 @@ footer {
 /* =============
     Section 1
 ============= */
-#section-1 img {
-  width: 100%; }
-
+#section-1 {
+  background-image: url("../img/section-1/hero.jpg");
+  background-size: 200%;
+  background-position: 100px, 0;
+  height: 45vh; }
+  @media (min-width: 768px) {
+    #section-1 {
+      height: 55vh;
+      background-size: cover;
+      background-position: center; } }
+  @media (min-width: 992px) {
+    #section-1 {
+      height: 650px; } }
+  @media (min-width: 1200px) {
+    #section-1 {
+      height: 50vh; } }
 /* =============
     Section 2
 ============= */
@@ -442,9 +455,16 @@ footer {
     grid-template-columns: 40% auto;
     border: 1px solid red; } }
 
-#section-3 #section-3-desktop aside img {
-  width: 100%; }
-
+#section-3 #section-3-desktop aside {
+  background-image: url("../img/section-3/grid-bot.jpg");
+  background-size: cover;
+  height: 370; }
+  @media (min-width: 768px) {
+    #section-3 #section-3-desktop aside {
+      height: 470px; } }
+  @media (min-width: 992px) {
+    #section-3 #section-3-desktop aside {
+      height: 600px; } }
 #section-3 #section-3-desktop #section-3-container {
   display: grid;
   grid-template-columns: 15px auto 15px;
