@@ -13,10 +13,20 @@
 
     ul{
         grid-area: section-5;
+        grid-template-rows: repeat(5, 234px);
         display: grid;
         gap:20px;
+        grid-template-areas: 
+        "g7"
+        "g1"
+        "g1"
+        "g6"
+        "g3";
+
+
         @include md{
             grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 277px);
             // grid-template-columns: 50% 50%;
             // grid-template-columns: 50% auto;
 
@@ -32,44 +42,54 @@
             "g1 g2 g3"
             "g1 g7 g4"
             "g6 g5 g4";
-
-            // grid-template-rows: repeat(3, 250px);    
+            grid-template-rows: repeat(3, 250px);
         }
 
         li{
-            img{
-                width: 100%;
-            }
+            background-size: cover;
+            background-position: center;
+            // height: 250px;
+        }
+        
+        #g1{
+            grid-area: g1;
+            background-image: url("../img/section-5/gallery-1.jpg");
         }
 
-        #g1{
-            @include md{
-                grid-area: g1;
+        #g2{
+            background-image: url("../img/section-5/gallery-2.jpg");
+            @include lg{
+                grid-area: g2;
             }
         }
 
         #g3{
-            @include md{
-                grid-area: g3;
+            background-image: url("../img/section-5/gallery-3.jpg");
+            grid-area: g3;
+        }
+
+        #g4{
+            background-image: url("../img/section-5/gallery-4.jpg");
+            @include lg{
+                grid-area: g4;
             }
         }
 
         #g5{
+            background-image: url("../img/section-5/gallery-5.jpg");
             @include md{
                 grid-area: g5;
             }
         }
 
         #g6{
-            @include md{
-                grid-area: g6;
-            }
+            background-image: url("../img/section-5/gallery-6.jpg");
+            grid-area: g6;
         }
 
         #g7{
-            @include md{
-                grid-area: g7;
-            }
+            border: 1px solid red;
+            grid-area: g7;
         }
     }
 }

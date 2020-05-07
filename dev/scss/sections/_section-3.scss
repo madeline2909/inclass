@@ -2,6 +2,7 @@
     Section 3
 ============= */
 #section-3{
+    border: 1px solid green;
 
     @include xl{
         display: grid;
@@ -15,13 +16,14 @@
             grid-area: section-3-dekstop;
             display: grid;
             grid-template-columns: 40% auto;
-            border: 1px solid red;
+            // border: 1px solid red;
         }
     
         aside{
             background-image: url("../img/section-3/grid-bot.jpg");
             background-size: cover;
-            height: 370;
+            background-position: center;
+            height: 370px;
 
             @include md{
                 height: 470px;
@@ -30,6 +32,11 @@
             @include lg{
                 height: 600px;
             }
+
+            @include xl{
+                background-position: -265px 0px;
+            }
+
         }
     
         #section-3-container{

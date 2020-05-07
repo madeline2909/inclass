@@ -2,7 +2,22 @@
     Section 4
 ============= */
 #section-4{
-    img{
-        width: 100%;
+    background-image: url('../img/section-4/hero.jpg');
+    background-size: cover;
+    background-position: -150px 0;
+    height: 45vh;
+
+    @include md{
+        height: 90vh;
+        background-position: -400px 0;
+    }
+
+    @include lg{ 
+        background-position: center top;
+        height: 650px;
+    }
+
+    @include xl{
+        height: 70vh;
     }
 }

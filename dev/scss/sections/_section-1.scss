@@ -3,14 +3,12 @@
 ============= */
 #section-1{
     background-image: url('../img/section-1/hero.jpg');
-    background-size: 200%;
-    background-position: 100px, 0;
+    background-size: cover;
+    background-position: center;
     height: 45vh;
 
     @include md{
         height: 55vh;
-        background-size: cover;
-        background-position: center;
     }
 
     @include lg{ 
